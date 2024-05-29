@@ -66,6 +66,7 @@ body {
   section {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
   section p {
     font-size: 14px;
@@ -81,12 +82,13 @@ body {
 
     background: #69B99D;
     border: 0;
-    padding: 0 50px 30px;
+    padding: 15px 32px 15px 32px;
 
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
-
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 179px;
     border-radius: 4px;
 
     cursor: pointer;
@@ -110,6 +112,7 @@ body {
   }
 
   #balls {
+      position: fixed;
       bottom: 0;
       right: 0;
   }
